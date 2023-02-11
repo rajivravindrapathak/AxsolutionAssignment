@@ -1,0 +1,56 @@
+.navDiv {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(56, 56, 55);
+    border: 1px solid black;
+}
+
+.navDiv > div {
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.subnavDiv > img {
+    width: 5%;
+    height: 42px;
+ 
+}
+
+.subnavDiv > p {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 55px;
+}
+
+.subnavDiv > p:hover {
+    border-bottom: 1px solid white;
+}
+
+.navDiv > div > button {
+    width: 15%;
+    height: 36px;
+    background-color: rgb(120, 182, 50);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navDiv > div > button:hover {
+    width: 15%;
+    height: 36px;
+    background-color: rgb(115, 180, 41);;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subnavDiv {
+    justify-content: space-around;
+    display: flex;
+}
+
+
